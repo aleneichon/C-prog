@@ -1,0 +1,51 @@
+#include <stdio.h>
+
+int main() {
+
+printf("Hello World, "); //print
+
+printf("Have a good day!\n"); //print con espacio
+printf("hola puerco");
+
+printf("\n"); //espacio
+printf("flores\n\n"); //print con linea en blanco
+printf("colores");
+
+/* COMENTARIO GIGANTE
+DE MAS DE UNA LINEA */
+
+
+/* TIPO_DE_VARIABLES NOMBRE = VALOR*/
+
+int numero = 2807;	
+float numero_con_decimales = 28.07;
+char letra = 'b';
+char LETRA = 'B';
+
+int declarar; // declarar variable
+declarar = 2001; // asignar valor 
+
+/* ESPECIFICADOR DE FORMATOS */
+/* "%d", "%c" y "%f" es para printear variables */
+
+printf("\n\n");
+printf("%d", numero); // print variable numero
+printf("\n");
+printf("%c", letra); // print variable letra
+printf("\n");
+printf("%f", numero_con_decimales); // print variable numero con decimales
+
+/* especificador de formatos en PRINT */
+printf("\n\n");
+printf("mi letra favorita es la %c y mi numero favorito es el %d", letra, numero);
+
+
+
+
+   int owo = 234;
+   int uwu = 123;
+   int alen = uwu+owo;
+  return 0;
+  return alen;
+
+}
